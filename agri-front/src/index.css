@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dark: oklch(0.262 0.051 172.552);
+  --color-light:  #BEF264;
+  --color-yellow-pale: #ECFCCB;
+  --color-yellow-bright: #D9F99D;
+  --color-gray: #B0B0B0;
+}
+
+/* Custom Theme Configuration */
+@layer utilities {
+  /* Couleurs personnalisées */
+  .bg-bolt-dark {
+    --tw-bg-opacity: 1;
+    background-color: oklch(0.262 0.051 172.552) / var(--tw-bg-opacity);
+  }
+
+  .bg-bolt-light {
+    --tw-bg-opacity: 1;
+    background-color: #BEF264 / var(--tw-bg-opacity);
+  }
+
+  .bg-bolt-yellow-pale {
+    --tw-bg-opacity: 1;
+    background-color: #ECFCCB / var(--tw-bg-opacity);
+  }
+
+  .bg-bolt-yellow-bright {
+    --tw-bg-opacity: 1;
+    background-color: #D9F99D / var(--tw-bg-opacity);
+  }
+
+  .bg-bolt-gray {
+    --tw-bg-opacity: 1;
+    background-color: #B0B0B0 / var(--tw-bg-opacity);
+  }
+
+  /* Polices personnalisées */
+  .font-sans {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  /* Animations personnalisées */
+  @keyframes gradient {
+    0%, 100% {
+      background-size: 200% 200%;
+      background-position: left center;
+    }
+    50% {
+      background-size: 200% 200%;
+      background-position: right center;
+    }
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+  }
+
+  .animate-gradient {
+    animation: gradient 8s linear infinite;
+  }
+
+  .animate-pulse-slow {
+    animation: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-spin-slow {
+    animation: spin 8s linear infinite;
+  }
+}
+
+
+.message-appear {
+  animation: messageAppear 0.5s ease-out forwards;
+}
+
+@keyframes messageAppear {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.typing-indicator {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.typing-dot {
+  width: 4px;
+  height: 4px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.typing-dot:nth-child(1) { animation: typingDot 1s infinite 0s; }
+.typing-dot:nth-child(2) { animation: typingDot 1s infinite 0.2s; }
+.typing-dot:nth-child(3) { animation: typingDot 1s infinite 0.4s; }
+
+@keyframes typingDot {
+  0%, 60%, 100% { transform: translateY(0); }
+  30% { transform: translateY(-4px); }
+}

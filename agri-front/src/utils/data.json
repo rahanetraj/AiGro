@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Préparation du sol",
+    "content": [
+      "Analyse du sol : Vérifier le pH (idéalement entre 6.0 et 6.😎 et la composition du sol. Un sol limoneux-sableux bien drainé est préférable.",
+      "Amendements organiques : Incorporer 2-3 kg/m² de compost bien décomposé ou de fumier pour améliorer la structure du sol et sa fertilité. Le sol à Antananarivo est souvent latéritique et nécessite un apport conséquent de matière organique.",
+      "Labour : Labourer le sol à une profondeur de 20-30 cm pour ameublir le sol et favoriser le développement racinaire.",
+      "Drainage : Assurer un bon drainage pour éviter la stagnation de l'eau, surtout pendant la saison des pluies. Créer des billons surélevés peut être bénéfique.",
+      "Désherbage : Éliminer les mauvaises herbes présentes avant la plantation pour réduire la compétition pour les nutriments et l'eau."
+    ]
+  },
+  {
+    "name": "Semis/Plantation",
+    "content": [
+      "Période : Commencer les semis en pépinière en janvier-février pour une transplantation en mars, après les fortes pluies et lorsque le risque de gel est faible à Antananarivo.",
+      "Préparation des semis : Semer les graines de tomate dans des plateaux de semis ou des godets remplis de terreau de qualité.",
+      "Profondeur des semis : Semer les graines à une profondeur de 0.5-1 cm.",
+      "Espacement : Transplanter les plants de tomate dans le champ avec un espacement de 60 cm entre les plants et 80 cm entre les rangs.",
+      "Variétés recommandées : Choisir des variétés de tomates adaptées au climat d'altitude et résistantes aux maladies courantes à Madagascar, comme la tomate Roma ou des variétés locales améliorées.",
+      "Tuteurage : Préparer des tuteurs (bambous, piquets) pour soutenir les plants de tomate au fur et à mesure de leur croissance."
+    ]
+  },
+  {
+    "name": "Entretien",
+    "content": [
+      "Arrosage : Arroser régulièrement, surtout pendant les périodes sèches, en évitant de mouiller le feuillage pour réduire le risque de maladies fongiques. Privilégier l'arrosage au pied des plants.",
+      "Fertilisation : Appliquer un engraisStarter riche en phosphore au moment de la transplantation pour favoriser l'enracinement. Effectuer des applications régulières d'engrais équilibré (NPK 15-15-15) toutes les 2-3 semaines après la floraison.",
+      "Sarclage et binage : Sarcler régulièrement pour éliminer les mauvaises herbes et biner le sol pour l'aérer.",
+      "Taille : Tailler les gourmands (rejets qui poussent à l'aisselle des feuilles) pour favoriser la production de fruits et améliorer la circulation de l'air.",
+      "Palissage : Attacher les plants de tomate aux tuteurs au fur et à mesure de leur croissance pour les soutenir et éviter que les fruits ne touchent le sol."
+    ]
+  },
+  {
+    "name": "Protection intégrée",
+    "content": [
+      "Surveillance : Surveiller régulièrement les plants pour détecter les signes de maladies ou de ravageurs.",
+      "Maladies : Prévenir les maladies fongiques (mildiou, oïdium) en assurant une bonne ventilation et en évitant l'humidité excessive. Utiliser des fongicides biologiques ou chimiques si nécessaire.",
+      "Ravageurs : Lutter contre les ravageurs (pucerons, aleurodes, chenilles) en utilisant des insecticides biologiques (huile de neem, savon noir) ou chimiques si nécessaire. Encourager la présence d'insectes auxiliaires (coccinelles, syrphes).",
+      "Rotation des cultures : Pratiquer la rotation des cultures pour réduire l'accumulation de maladies et de ravageurs dans le sol.",
+      "Paillage : Pailler le sol avec de la paille, des feuilles mortes ou des copeaux de bois pour réduire les mauvaises herbes, conserver l'humidité du sol et protéger les fruits du contact direct avec le sol."
+    ]
+  },
+  {
+    "name": "Récolte/Post-récolte",
+    "content": [
+      "Récolte : Récolter les tomates lorsqu'elles sont mûres, c'est-à-dire lorsqu'elles ont atteint leur couleur et leur fermeté optimales. La récolte peut commencer environ 2-3 mois après la transplantation.",
+      "Tri : Trier les tomates pour éliminer les fruits endommagés ou malades.",
+      "Stockage : Stocker les tomates dans un endroit frais et sec, à l'abri du soleil direct. Les tomates vertes peuvent être stockées pour mûrir progressivement.",
+      "Transformation : Transformer les tomates en sauce, confiture ou autres produits pour une conservation à plus long terme.",
+      "Commercialisation : Vendre les tomates sur les marchés locaux ou directement aux consommateurs."
+    ]
+  }
+]
